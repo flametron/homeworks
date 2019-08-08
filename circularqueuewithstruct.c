@@ -88,7 +88,7 @@ int main(void){
 		switch(in){
 			case 1:
 				pf("Enter the element to enqueue: ");
-				sf("%d",&cap);\
+				sf("%d",&cap);
 				pf("\033[2J\033[1;1H");
 				if(enqueue(&q,cap))
 					pf("Enqueued %d\n",cap);
